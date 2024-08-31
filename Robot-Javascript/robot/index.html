@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="project.css" />
+
+    <title>Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Robot - JavaScript</h1>
+      <h1 class="title">Task Manager</h1>
+      <div class="durata">
+        Durata:
+        <input type="number" name="secunde" class="sec" />
+      </div>
+      <br />
+      Task:
+      <button class="left">Left</button>
+      <button class="top">Top</button>
+      <button class="right">Right</button>
+      <button class="bottom">Bottom</button>
+
+      <div>
+        <div class="add"></div>
+        <button class="delete">Sterge</button>
+        <button class="start">Start</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="output">
+        <ol class="outputOl"></ol>
+      </div>
+      <div class="grid">
+        <div class="robot"></div>
+        <div class="random"></div>
+      </div>
+    </div>
+    <div class="wrong1">
+      <h3 class="wrong"></h3>
+      <h3 class="limit"></h3>
+      <h2 class="congrats"></h2>
+      <button class="refresh" onClick="window.location.reload();">
+        Go again! ✨
+      </button>
+    </div>
+    <script src="robot.js"></script>
+  </body>
+</html>
