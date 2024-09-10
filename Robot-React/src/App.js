@@ -6,8 +6,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* <Task /> */}
-      <Snake />
+      <Task />
+      {/* <Snake /> */}
     </>
   );
 }
