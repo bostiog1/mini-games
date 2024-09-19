@@ -1,2 +1,1 @@
-You can see what the site looks like by clicking READ ME on each project.
-
+You can see the projects live by clicking READ ME on each one.
